@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Planetary Baseball Cards</title>
+	<link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header>
+			<h1>Planetary Baseball Cards</h1>
+		</header>
+
+		<main>
+			<div class="row">
+				<div class="col-3">
+					<div class="card" id="sun">
+						<img src="sun.png" alt="sun" width="80%">
+						<h2>Sun</h2>
+						<p>Type G2V</p>
+					</div>
+				</div>
+				<div class="col-9">
+					<div class="planet-row">
+						<div class="card">
+							<img src="mercury.png" alt="mercury" width="80%">
+							<h2>Mercury</h2>
+							<p>0.39 AU</p>
+						</div>
+						<div class="card">
+							<img src="venus-planet.png" alt="venus" width="80%">
+							<h2>Venus</h2>
+							<p>0.72 AU</p>
+						</div>
+						<div class="card">
+							<img src="earth.png" alt="earth" width="80%">
+							<h2>Earth</h2>
+							<p>1.00 AU</p>
+						</div>
+						<div class="card">
+							<img src="mars.png" alt="mars" width="80%">
+							<h2>Mars</h2>
+							<p>1.52 AU</p>
+						</div>
+					</div>
+					<div class="planet-row">
+						<div class="card">
+							<img src="jupiter.png" alt="jupiter" width="80%">
+							<h2>Jupiter</h2>
+							<p>5.20 AU</p>
+						</div>
+						<div class="card">
+							<img src="saturn-planet.png" alt="saturn width="80%">
+							<h2>Saturn</h2>
+							<p>9.58 AU</p>
+						</div>
+						<div class="card">
+							<img src="uranus-planet.png" alt="uranus" width="80%">
+							<h2>Uranus</h2>
+							<p>19.22 AU</p>
+						</div>
+						<div class="card">
+							<img src="neptune-planet.png" alt="neptune" width="80%">
+							<h2>Neptune</h2>
+							<p>30.05 AU</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+</body>
+
 </html>
